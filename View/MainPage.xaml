@@ -1,0 +1,39 @@
+﻿<Page x:Class="newTestLibrary.View.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:newTestLibrary.View"
+      mc:Ignorable="d" 
+      d:DesignHeight="550" d:DesignWidth="800"
+      
+      Title="MainPage">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="0" Background="#224870">
+            <Label Margin="10 10 0 0" Content="Hi!" Style="{StaticResource labelStyle}"></Label>
+            <Label Margin="10 10 0 40" Content="Выберите действие: " Style="{StaticResource labelStyle}"></Label>
+            <Button Style="{StaticResource buttonStyle}" Name="btnAddBook" Click="btnAddBook_Click"
+                    Margin="0 10 60 0" Content="Добавить книгу"></Button>
+            <Button Style="{StaticResource buttonStyle}"
+                    Margin="0 10 60 0" Content="Удалить книгу"></Button>
+            <Button Style="{StaticResource buttonStyle}"
+                    Margin="0 10 60 0" Content="Редактировать "></Button>
+            <Button Style="{StaticResource buttonStyle}"
+                    Margin="0 10 60 0" Content="Список книг "></Button>
+            <Button Style="{StaticResource buttonStyle}"
+                    Margin="0 10 60 0" Content="Настройки"></Button>
+            <Button Style="{StaticResource buttonStyle}" Click="btnExit_Click" Name="btnExit"
+                    Margin="0 10 60 0" Content="Выйти"></Button>
+        </StackPanel>
+        <StackPanel Grid.Column="1" >
+            <Image Source="\Images\MainLibrary2.jpg" Stretch="Fill" Height="550" />
+            
+        
+        </StackPanel>
+    </Grid>
+</Page>
