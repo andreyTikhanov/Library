@@ -18,14 +18,25 @@ namespace newTestLibrary
     public partial class MainWindow : Window
     {
         LibraryRepository _libraryRepository;
+        User user;
+        List<User> users;   
         public MainWindow()
         {
             InitializeComponent();
             _libraryRepository = new LibraryRepository();
+            users=_libraryRepository.GetUsers();
+            if(users != null && users.Count>0)
+            {
+                MainFrame.NavigationService.Navigate(new MainPage());
+            }
+            else
+            {
+                MainFrame.NavigationService.Navigate(new Registration());
+            }
             
-            MainFrame.Navigate(new MainPage());
+            
         }
-
+        
        
     }
 }

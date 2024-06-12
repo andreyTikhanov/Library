@@ -1,7 +1,9 @@
-﻿using newTestLibrary.dataBase;
+﻿using Mysqlx.Expect;
+using newTestLibrary.dataBase;
 using newTestLibrary.Model;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Input;
 
 namespace newTestLibrary.View
 {
@@ -18,6 +20,13 @@ namespace newTestLibrary.View
         private void btnExit_Click(object sender, RoutedEventArgs e)
         {
             Application.Current.Shutdown();
+        }
+        private void TextBox_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Enter)
+            {
+                btnSaveUser_Click(sender, e);
+            }
         }
 
         private void btnSaveUser_Click(object sender, RoutedEventArgs e)
@@ -41,7 +50,7 @@ namespace newTestLibrary.View
             user.Phone=tbPhone.Text;
             _libraryRepository = new LibraryRepository();
             _libraryRepository.AddUser(user);
-           
+            NavigationService.Navigate(new MainPage());
         }
     }
 }

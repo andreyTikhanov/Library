@@ -40,11 +40,11 @@
 
             <!-- StackPanel для текстбоксов -->
             <StackPanel Grid.Column="1">
-                <TextBox x:Name="tbNameUser" Style="{StaticResource textBoxAddPage}" Margin="10 20 0 0"/>
-                <PasswordBox x:Name="pbPasswordUser" Margin="10 20 0 0" Height="40" Background="#6E6A6F" Foreground="#F0EBD8" FontSize="30"/>
-                <PasswordBox x:Name="pbRepPasswordUser" Margin="10 20 0 0" Height="40" Background="#6E6A6F" Foreground="#F0EBD8" FontSize="30"/>
-                <TextBox x:Name="tbPhone" Style="{StaticResource textBoxAddPage}" Margin="10 20 0 20"/>
-                <Button Click="btnExit_Click" Style="{StaticResource buttonStyle}" Content="Выйти" ></Button>
+                <TextBox x:Name="tbNameUser" Style="{StaticResource textBoxAddPage}" Margin="10 20 0 0" KeyDown="TextBox_KeyDown"/>
+                <PasswordBox x:Name="pbPasswordUser" Margin="10 20 0 0" Height="40" Background="#6E6A6F" Foreground="#F0EBD8" FontSize="30" KeyDown="TextBox_KeyDown"/>
+                <PasswordBox x:Name="pbRepPasswordUser" Margin="10 20 0 0" Height="40" Background="#6E6A6F" Foreground="#F0EBD8" FontSize="30" KeyDown="TextBox_KeyDown"/>
+                <TextBox x:Name="tbPhone" Style="{StaticResource textBoxAddPage}" Margin="10 20 0 20" KeyDown="TextBox_KeyDown"/>
+                <Button  Click="btnExit_Click" Style="{StaticResource buttonStyle}" Content="Выйти" ></Button>
             </StackPanel>
            
         </Grid>
