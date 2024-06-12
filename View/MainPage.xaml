@@ -31,7 +31,7 @@
                     Margin="0 10 60 0" Content="Выйти"></Button>
         </StackPanel>
         <StackPanel Grid.Column="1" >
-            <Image Source="\Images\MainLibrary2.jpg" Stretch="Fill" Height="550" />
+            <Image Source="\Images\MainLibrary.jpg" Stretch="Fill" Height="550" />
             
         
         </StackPanel>

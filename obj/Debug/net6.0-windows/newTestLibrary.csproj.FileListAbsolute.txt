@@ -44,6 +44,11 @@ C:\Users\andre\source\repos\newTestLibrary\newTestLibrary\obj\Debug\net6.0-windo
 C:\Users\andre\source\repos\newTestLibrary\newTestLibrary\obj\Debug\net6.0-windows\View\MainPage.baml
 C:\Users\andre\source\repos\newTestLibrary\newTestLibrary\bin\Debug\net6.0-windows\Images\MainLibrary.jpg
 C:\Users\andre\source\repos\newTestLibrary\newTestLibrary\obj\Debug\net6.0-windows\newTestLibrary_Content.g.cs
-C:\Users\andre\source\repos\newTestLibrary\newTestLibrary\bin\Debug\net6.0-windows\Images\MainLibrary2.jpg
 C:\Users\andre\source\repos\newTestLibrary\newTestLibrary\obj\Debug\net6.0-windows\View\AddBook.g.cs
 C:\Users\andre\source\repos\newTestLibrary\newTestLibrary\obj\Debug\net6.0-windows\View\AddBook.baml
+C:\Users\andre\source\repos\newTestLibrary\newTestLibrary\obj\Debug\net6.0-windows\newTestLibrary.sourcelink.json
+C:\Users\andre\source\repos\newTestLibrary\newTestLibrary\obj\Debug\net6.0-windows\Resources\textBoxes.baml
+C:\Users\andre\source\repos\newTestLibrary\newTestLibrary\bin\Debug\net6.0-windows\Images\RegisterFone.jpg
+C:\Users\andre\source\repos\newTestLibrary\newTestLibrary\obj\Debug\net6.0-windows\View\Registration.g.cs
+C:\Users\andre\source\repos\newTestLibrary\newTestLibrary\obj\Debug\net6.0-windows\View\Registration.baml
+C:\Users\andre\source\repos\newTestLibrary\newTestLibrary\bin\Debug\net6.0-windows\Images\Register1.png

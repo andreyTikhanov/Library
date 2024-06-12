@@ -32,7 +32,8 @@ namespace newTestLibrary.View
 
         private void btnAddBook_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new AddBook());
+            NavigationService.Navigate(new Registration());
+            //NavigationService.Navigate(new AddBook());
         }
     }
 }

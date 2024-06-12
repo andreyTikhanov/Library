@@ -9,21 +9,32 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Fonts\ofont.ru_Beton Cyr.ttf" />
     <None Remove="Images\MainLibrary.jpg" />
-    <None Remove="Images\MainLibrary2.jpg" />
+    <None Remove="Images\Register1.png" />
+    <None Remove="Images\RegisterFone.jpg" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="Images\MainLibrary.jpg">
+    <Content Include="Images\Register1.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\MainLibrary2.jpg">
+    <Content Include="Images\RegisterFone.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\MainLibrary.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="MySql.Data" Version="8.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Fonts\ofont.ru_Beton Cyr.ttf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
 </Project>

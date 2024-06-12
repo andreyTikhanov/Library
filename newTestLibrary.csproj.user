@@ -13,6 +13,9 @@
     <Compile Update="View\MainPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="View\Registration.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="MainWindow.xaml">
@@ -24,10 +27,16 @@
     <Page Update="Resources\labels.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Resources\textBoxes.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="View\AddBook.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\MainPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Registration.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

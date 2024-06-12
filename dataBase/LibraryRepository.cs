@@ -29,11 +29,9 @@ namespace newTestLibrary.dataBase
         }
         private bool OpenConn()
         {
-        
             try
             {
                 _connection.Open();
-                MessageBox.Show("Ok");
                 return true;
                 
             }catch (Exception ex)
@@ -81,6 +79,24 @@ namespace newTestLibrary.dataBase
                 cmd.Parameters.AddWithValue("@id", book.Id);
                 cmd.ExecuteNonQuery();
             }catch { }
+            finally { CloseConn(); }
+        }
+        public void AddUser(User user)
+        {
+        
+            try
+            {
+                if (user == null || !OpenConn()) return;
+                string query = "insert into users values (null, @name, @pass, @phone)";
+                MySqlCommand cmd = _connection.CreateCommand();
+                cmd.CommandText = query;
+                cmd.Parameters.AddWithValue("@name", user.Name);
+                cmd.Parameters.AddWithValue("@pass", user.Password);
+                cmd.Parameters.AddWithValue("@phone", user.Phone);
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("Saved");
+            }
+            catch { }
             finally { CloseConn(); }
         }
     }

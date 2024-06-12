@@ -6,9 +6,11 @@
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="Resources\labels.xaml"/>
-                <ResourceDictionary Source="Resources\buttons.xaml"/>
+                <ResourceDictionary Source="Resources/labels.xaml"/>
+                <ResourceDictionary Source="Resources/buttons.xaml"/>
+                <ResourceDictionary Source="Resources/textBoxes.xaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>
 </Application>
+

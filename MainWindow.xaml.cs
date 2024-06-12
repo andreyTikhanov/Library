@@ -22,6 +22,7 @@ namespace newTestLibrary
         {
             InitializeComponent();
             _libraryRepository = new LibraryRepository();
+            
             MainFrame.Navigate(new MainPage());
         }
 

@@ -9,6 +9,14 @@
       Title="AddBook">
 
     <Grid>
-        
+        <Image Source="\Images\RegisterFone.jpg" Stretch="Fill"/>
+        <StackPanel>
+            <Label Style="{StaticResource AddPageLabel}" 
+                   Content="Введите название книги: "
+                   Margin="10 20 0 0"></Label>
+            <TextBox Style="{StaticResource textBoxAddPage}"/>
+        </StackPanel>
+    
+    
     </Grid>
 </Page>

@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\andre\source\repos\newTestLibrary\newTestLibrary\App.xaml
-5-1104905406
-21074645603
-8-1431228309
+7-132624756
+31744219220
+111726371288
 202-204126622
-MainWindow.xaml;Resources\buttons.xaml;Resources\labels.xaml;View\AddBook.xaml;View\MainPage.xaml;
+MainWindow.xaml;Resources\buttons.xaml;Resources\labels.xaml;Resources\textBoxes.xaml;View\AddBook.xaml;View\MainPage.xaml;View\Registration.xaml;
 
 False
 
